@@ -1,4 +1,5 @@
-# Airline-Registration-System
+# Airline Registration System
+
 
 #include<iostream>
 #include<fstream>
@@ -62,7 +63,7 @@ class registration
 
     void flights()
     {
-           string flightN[]={"Dubai","Canadia","USA","Australia","UK","Europe"};
+           string flightN[]={"Dubai","Canadia","UK","Australia","USA","Europe"};
            for(int a = 0; a<6 ; a++)
            {
              cout<<(a+1)<<" . flight to"<<flightN[a]<<endl;
@@ -404,10 +405,12 @@ class ticket : public registration , Details
           outf<<"_______________ASUU Airlines_______________"<<endl;
           outf<<"___________________Ticket__________________"<<endl;
           outf<<"___________________________________________"<<endl;
+          
 
-          outf<<"Customer ID :"<<Details::cId<<endl;
-          outf<<"Customer Name :"<<Details::name<<endl;
-          outf<<"Customer Gender :"<<Details::gender<<endl;
+          outf<<"Customer ID     :\t"<<Details::cId<<endl;
+          outf<<"Customer Name   :\t"<<Details::name<<endl;
+          outf<<"Customer Gender :\t"<<Details::gender<<endl;
+          
           outf<<"\tDescription"<<endl<<endl;
           
           if (registration::choice==1)
@@ -488,7 +491,7 @@ void mainMenu()
     cout<<"\t|\t Press 2 For Flight Registration         \t|"<<endl;
     cout<<"\t|\t Press 3 For Tickets and Charges         \t|"<<endl;
     cout<<"\t|\t Press 4 For Exit                        \t|"<<endl;
-    cout<<"\t|\t\t\t\t\t\t|"<<endl;
+    cout<<"\t|\t\t\t\t\t\t|"<<endl;                       
     cout<<"\t_______________________________________________"<<endl;
 
     cout<<" Enter the choice : ";
