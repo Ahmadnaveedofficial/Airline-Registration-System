@@ -1,6 +1,7 @@
 # Airline Registration System
 
 
+
 #include<iostream>
 #include<fstream>
 #include<iomanip>
@@ -437,7 +438,7 @@ class ticket : public registration , Details
           {
             destination="Europe";
           }
-          outf<<"Destination\t\t"<<destination<<endl;
+          outf<<"Destination :\t\t"<<destination<<endl;
           outf<<"Flight cost :\t\t"<<registration::charges<<endl;
          
           
