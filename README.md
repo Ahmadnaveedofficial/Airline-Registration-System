@@ -1,4 +1,5 @@
-# Airline Registration System
+
+// Airline Registration System
 
 
 
@@ -482,18 +483,19 @@ void mainMenu()
     int schoice;
     int back;
 
-    cout<<"\t               ASUU Airlines \n"<<endl;
-    cout<<"\t_______________Main Menu_______________"<<endl;  // 15 lines each
+    cout<<"\t                 ASUU Airlines \n"<<endl;
+    cout<<"\t___________________Main Menu___________________"<<endl;  // 15 lines each
 
-    cout<<"\t_______________________________________________"<<endl;
-    cout<<"\t|\t\t\t\t\t\t|"<<endl;
+    cout<<"\t _____________________________________________"<<endl;
+    cout<<"\t|\t\t\t\t\t      |"<<endl;
 
-    cout<<"\t|\t Press 1 to Add The Customer Details     \t|"<<endl;
-    cout<<"\t|\t Press 2 For Flight Registration         \t|"<<endl;
-    cout<<"\t|\t Press 3 For Tickets and Charges         \t|"<<endl;
-    cout<<"\t|\t Press 4 For Exit                        \t|"<<endl;
-    cout<<"\t|\t\t\t\t\t\t|"<<endl;                       
-    cout<<"\t_______________________________________________"<<endl;
+    cout<<"\t|\t Press 1 to Add The Customer Details  |"   <<endl;
+    cout<<"\t|\t Press 2 For Flight Registration      |"   <<endl;
+    cout<<"\t|\t Press 3 For Tickets and Charges      |"   <<endl;
+    cout<<"\t|\t Press 4 For Exit                     |"   <<endl;
+    cout<<"\t|\t\t\t\t\t      |"<<endl;           
+	            
+    cout<<"\t _____________________________________________"<<endl;
 
     cout<<" Enter the choice : ";
     cin>>lchoice;
